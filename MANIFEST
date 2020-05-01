@@ -18,6 +18,7 @@ MANIFEST			This list of files
 META.yml
 Optimization.pm
 README
+SIGNATURE
 t/App-PYX-Optimization/01-use.t
 t/App-PYX-Optimization/02-version.t
 t/App-PYX-Optimization/03-new.t
