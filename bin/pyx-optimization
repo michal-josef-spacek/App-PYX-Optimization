@@ -8,7 +8,7 @@ use App::PYX::Optimization;
 our $VERSION = 0.01;
 
 # Run.
-exit App::App::Optimization->new->run;
+exit App::PYX::Optimization->new->run;
 
 # Print version.
 sub VERSION_MESSAGE {
