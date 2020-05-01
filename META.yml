@@ -1,5 +1,5 @@
 ---
-abstract: TODO
+abstract: 'PYX optimization tool.'
 author:
   - 'Michal Spacek <skim@cpan.org>'
 build_requires:
@@ -8,9 +8,6 @@ build_requires:
   File::Object: 0.07
   Test::More: 0
   Test::NoWarnings: 0
-  Test::Output: 1.02
-  Test::Pod: 0
-  Test::Pod::Coverage: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.36
 distribution_type: module
@@ -20,7 +17,7 @@ license: bsd
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
-name: App-PYX-Optimalization
+name: App-PYX-Optimization
 no_index:
   directory:
     - inc
@@ -28,11 +25,11 @@ no_index:
     - xt
 requires:
   Getopt::Std: 0
-  PYX::Optimalization: 0.01
+  PYX::Optimization: 0.01
   perl: 5.6.0
 resources:
-  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=App-PYX-Optimalization
-  homepage: https://github.com/tupinek/App-PYX-Optimalization
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=App-PYX-Optimization
+  homepage: https://github.com/michal-josef-spacek/App-PYX-Optimization
   license: http://opensource.org/licenses/bsd-license.php
-  repository: git://github.com/tupinek/App-PYX-Optimalization
+  repository: git://github.com/michal-josef-spacek/App-PYX-Optimization
 version: '0.01'
