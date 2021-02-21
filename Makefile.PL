@@ -21,8 +21,7 @@ recursive_author_tests('xt');
 requires 'Getopt::Std' => 0;
 requires 'PYX::Optimization' => 0.01;
 requires 'perl' => '5.6.0';
-resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
-	'?Name=App-PYX-Optimization';
+resources 'bugtracker' => 'https://github.com/michal-josef-spacek/App-PYX-Optimization/issues';
 resources 'homepage' => 'https://github.com/michal-josef-spacek/App-PYX-Optimization';
 resources 'repository' => 'git://github.com/michal-josef-spacek/App-PYX-Optimization';
 test_requires 'English' => 0;
