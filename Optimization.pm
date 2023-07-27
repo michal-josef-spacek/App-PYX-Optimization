@@ -91,6 +91,8 @@ Run.
 
 =head1 EXAMPLE
 
+=for comment filename=print_help.pl
+
  use strict;
  use warnings;
 
