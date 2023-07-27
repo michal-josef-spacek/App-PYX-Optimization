@@ -33,8 +33,8 @@ sub run {
 		print STDERR "Usage: $0 [-h] [--version] [filename] [-]\n";
 		print STDERR "\t-h\t\tPrint help.\n";
 		print STDERR "\t--version\tPrint version.\n";
-		print STDERR "\tfilename\tProcess on filename\n";
-		print STDERR "\t-\t\tProcess on stdin\n";
+		print STDERR "\tfilename\tProcess on filename.\n";
+		print STDERR "\t-\t\tProcess on stdin.\n";
 		return 1;
 	}
 	$self->{'_filename_or_stdin'} = $ARGV[0];

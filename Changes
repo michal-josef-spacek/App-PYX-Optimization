@@ -1,6 +1,7 @@
 0.02
  - Add examples/ directory.
  - Fix bugtracker.
+ - Improve help message.
  - Rename example to better name.
  - Update copyright years.
  - Update Module::Install to 1.21 version.
