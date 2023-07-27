@@ -41,19 +41,19 @@ comment sections.
 
 =item * C<-h>
 
- Print help.
+Print help.
 
 =item * C<--version>
 
- Print version of script.
+Print version of script.
 
 =item * C<filename>
 
- PYX filename.
+PYX filename.
 
 =item * C<->
 
- STDIN with PYX code.
+STDIN with PYX code.
 
 =back
 

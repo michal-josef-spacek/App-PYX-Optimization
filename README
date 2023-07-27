@@ -11,19 +11,19 @@ DESCRIPTION
 ARGUMENTS
     *       "-h"
 
-             Print help.
+            Print help.
 
     *       "--version"
 
-             Print version of script.
+            Print version of script.
 
     *       "filename"
 
-             PYX filename.
+            PYX filename.
 
     *       "-"
 
-             STDIN with PYX code.
+            STDIN with PYX code.
 
 EXAMPLE
      pyx-optimization __PYX_FILE__
