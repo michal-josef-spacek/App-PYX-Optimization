@@ -2,6 +2,7 @@
  - Add examples/ directory.
  - Fix bugtracker.
  - Update copyright years.
+ - Update Module::Install to 1.21 version.
 
 0.01 2020-05-01T19:09:01+02:00
  - First version.
