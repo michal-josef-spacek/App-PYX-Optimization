@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 use Getopt::Std;
-use PYX::Optimization
+use PYX::Optimization;
 
 our $VERSION = 0.04;
 
