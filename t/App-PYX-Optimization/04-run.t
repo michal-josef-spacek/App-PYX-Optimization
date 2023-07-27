@@ -5,7 +5,7 @@ use English;
 use File::Object;
 use File::Spec::Functions qw(abs2rel);
 use App::PYX::Optimization;
-use Test::More 'tests' => 6;
+use Test::More 'tests' => 7;
 use Test::NoWarnings;
 use Test::Output;
 use Test::Warn;
@@ -84,3 +84,26 @@ stdout_is(
 	$right_ret,
 	'Optimize PYX file.',
 );
+
+# Test.
+@ARGV = (
+	'-'
+);
+local *STDIN;
+open STDIN, '<', $data_dir->file('element.pyx')->s;
+$right_ret = <<'END';
+_comment
+(element
+Apar val
+-text
+)element
+END
+stdout_is(
+	sub {
+		App::PYX::Optimization->new->run;
+		return;
+	},
+	$right_ret,
+	'Optimize PYX stdin.',
+);
+close STDIN;
