@@ -6,7 +6,7 @@ use warnings;
 use Getopt::Std;
 use PYX::Optimization
 
-our $VERSION = 0.03;
+our $VERSION = 0.04;
 
 # Constructor.
 sub new {
@@ -131,6 +131,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.03
+0.04
 
 =cut

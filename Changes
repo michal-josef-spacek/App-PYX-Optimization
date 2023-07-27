@@ -1,3 +1,5 @@
+0.04
+
 0.03 2023-07-27T11:41:52+02:00
  - Fix test dependencies.
  - Add test for stdin.
